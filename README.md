@@ -54,3 +54,46 @@ int main()
   return 0;
 }
 ```
+
+## Latihan 3: Menentukan Angka yang Lebih Besar
+
+*Alur Algoritma*
+1. Deklarasi integer `int n1, n2`
+2. Masukkan angka pertama atau `n1` dan angka kedua atau `n2`
+3. Bila `n1` lebih besar dari `n2` maka `cout << n1 << " > " << n2`
+4. Bila `n1` lebih kecil dari `n2` maka `cout << n1 << " < " << n2`
+5. Bila `n1` sama dengan `n2` maka `cout << n1 << " = " << n2`
+
+*Berikut code lengkapnya*
+```
+#include <iostream>
+using namespace std;
+
+int main()
+{
+  int n1, n2;
+  
+  cout << "Program menentukan angka mana yang lebih besar"
+  cout << "Masukkan bilangan pertama: "
+  cin >> n1
+  cout << "Masukkan bilangan kedua: "
+  cin >> n2
+  
+  if(n1 > n2)
+  {
+    cout << n1 << " > " << n2;
+  }
+  
+  if(n1 < n2)
+  {
+    cout << n1 << " < " << n2;
+  }
+  
+  if(n1 == n2)
+  {
+    cout << n1 << " = " << n2;
+  }
+  
+  return 0;
+}
+```
